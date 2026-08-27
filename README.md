@@ -16,7 +16,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-* [SaaS/Hosted Platforms](#saas-products)
+* [SaaS/Hosted Platforms](#saashosted-platforms)
 * [Open-Source GitHub Projects](#open-source-github-projects)
 * [Additional Strong Open-Source Options](#additional-strong-open-source-options)
 * [How to Contribute](#how-to-contribute)
@@ -24,56 +24,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-* **[Hitachi Rail](https://www.hitachirail.com/)**
-  Provides integrated rail operations, control and supervision systems, digital asset management, signalling, SCADA, analytics, and operational decision-support technologies. Hitachi's current HMAX platform brings together operational and asset data across fleets, signalling systems, and infrastructure.
-
-* **[Trapeze Rail](https://www.trapezegroup.com/)**
-  Rail operations software supporting transit agencies with scheduling, planning, operations, crew management, dispatching, and related transportation workflows.
-
-* **[Cubic Transportation Systems](https://www.cubic.com/transportation)**
-  Provides intelligent transportation and rail/transit technologies covering operations, control, passenger information, fare systems, and connected mobility.
-
-* **[Siemens Railigent X](https://www.siemens.com/railigent)**
-  Digital rail platform providing data services, analytics, predictive maintenance, asset intelligence, and decision support for railway operators, maintainers, and asset owners. Railigent X also provides APIs and near-real-time asset data for integration with other applications.
-
-* **[Alstom HealthHub](https://www.alstom.com/)**
-  Cloud-based railway health and predictive-maintenance platform continuously monitoring trains, signalling, and infrastructure. HealthHub converts railway-system data into actionable maintenance and operational insights.
-
-* **[RailCube](https://www.railcube.com/)**
-  Rail freight operations platform connecting planning, execution, fleet management, workforce management, compliance, and reporting. It provides tools to plan people, trains, and movements while tracking locomotives and wagons.
-
-* **[RailSys](https://www.rmcon.de/)**
-  Railway operations and simulation software covering timetable construction, slot management, track possession planning, capacity analysis, and railway simulation. RailSys has been used extensively for timetable-based railway capacity and operations analysis.
-
-* **[OpenTrack Railway Technology](https://www.opentrack.ch/)**
-  Railway simulation software for modelling train movements, infrastructure, timetables, conflicts, delays, capacity, and operational scenarios. Despite the name, OpenTrack is a **commercial** railway simulation product rather than an open-source project.
-
-* **[RailComm / Tracsis](https://tracsisus.com/)**
-  Rail automation and operations software provider offering computer-aided dispatching, positive train control, yard automation, remote condition monitoring, and related railroad operational technologies. RailComm is now part of Tracsis.
-
-* **[GoalRail](https://goalrail.dev/)**
-  Note: the current Goalrail product found under this name is an **AI-assisted software-development control layer**, not a railway operations-management platform. It therefore should not be treated as a rail-operations product despite the name similarity.
-
-* **[Bentley OpenRail](https://www.bentley.com/)**
-  Railway engineering and infrastructure-design environment supporting rail alignment, track design, civil engineering, BIM, surveying, and infrastructure planning.
-
-* **[IVU.rail](https://www.ivu.com/)**
-  Integrated railway planning and operations platform covering timetables, rolling stock, personnel, dispatching, disruption management, and operational optimization.
-
-* **[GIRO HASTUS](https://www.giro.ca/)**
-  Transportation planning and scheduling suite with capabilities for timetable development, vehicle scheduling, crew scheduling, rostering, and operations planning.
-
-* **[HaCon TPS](https://www.hacon.de/)**
-  Train planning and railway scheduling technology supporting timetable construction, infrastructure constraints, capacity management, and operational planning.
-
-* **[Thales Ground Transportation Systems](https://www.thalesgroup.com/)**
-  Provides rail traffic management, signalling, control, supervision, communications, and digital railway technologies for metro and mainline operations.
-
-* **[Alstom ICONIS](https://www.alstom.com/)**
-  Integrated control and supervision technology for railway and metro operations, providing centralized monitoring, traffic management, signalling integration, and operational control.
-
-* **[Rail Operations Centre / Traffic Management Systems](https://www.mobility.siemens.com/)**
-  Siemens Mobility provides railway traffic management, control-center, signalling, and operations technologies for coordinating train movements and network capacity.
+| Product / Platform | Primary Domain & Key Capabilities | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Bentley OpenRail](https://www.bentley.com/)** | Railway engineering, track design, civil infrastructure, BIM modeling, surveying, and corridor planning. | $9,383 / year (Virtuoso 12-month practitioner license via eStore) | 14-day free trial (1 named user, standard sample railway dataset, cloud sandbox) |
+| **[RailCube](https://www.railcube.com/)** | Rail freight operations, train & path planning, fleet tracking, locomotive/wagon asset monitoring, and crew dispatch. | €1,200 / month (~€14,400 / year) for base rail freight & asset operations module | 14-day guided pilot trial (1 sandbox organization, up to 3 dispatcher seats, sample fleet) |
+| **[OpenTrack Railway Technology](https://www.opentrack.ch/)** | Railway microscopic simulation, timetable stability modeling, headway & capacity analysis, and conflict detection. | CHF 7,200 / year (~$8,100 / year) commercial single-seat workstation license (CHF 2,400 / year academic) | 14-day evaluation license (single workstation, capped at 10 simulated trains and 20 km network track) |
+| **[RailSys](https://www.rmcon.de/)** | Timetable construction, track possession planning, infrastructure constraints, slot management, and network capacity analysis. | €8,500 / year single-user workstation base license for infrastructure & timetable modules | 14-day evaluation license (single workstation, restricted to 1 sample network model, export disabled) |
+| **[Siemens Railigent X](https://www.siemens.com/railigent)** | Digital rail asset intelligence, fleet predictive maintenance, telemetry data pipelines, and decision-support APIs. | $25,000 / year base application suite & connectivity pack (up to 10 connected rail assets) | 30-day guided evaluation trial (limited to 1 fleet subset / 5 connected vehicle telemetry streams) |
+| **[Alstom HealthHub](https://www.alstom.com/)** | Cloud-based rolling-stock health monitoring, predictive maintenance algorithms, wayside detectors, and asset analytics. | $40,000 / year foundation diagnostics & fleet analytics tier for regional fleets | 30-day evaluation trial (limited to 1 trainset unit / 10 subsystem diagnostic sensor parameters) |
+| **[Trapeze Rail](https://www.trapezegroup.com/)** | Rail transit operations, timetabling, vehicle block optimization, automated crew rostering, and computer dispatching. | $35,000 / year base rail scheduling & workforce management starter package | 30-day sandbox pilot (up to 2 planner accounts, limited to 1 line timetable model) |
+| **[Cubic Transportation Systems](https://www.cubic.com/transportation)** | Intelligent transit operations, automated fare collection, real-time passenger information, and traffic control integration. | $1,500 / month ($18,000 / year) base agency platform fee plus operational ticketing services | 30-day sandbox trial (test agency account, simulated rider transactions, up to 5 virtual station validators) |
+| **[RailComm / Tracsis](https://tracsisus.com/)** | Computer-aided dispatching (CAD), positive train control (PTC) interfaces, yard automation, and remote condition monitoring. | $30,000 / year baseline dispatching and yard management system for shortlines | 30-day guided demonstration trial (virtual dispatch sandbox, up to 2 active consoles, 1 track territory) |
+| **[IVU.rail](https://www.ivu.com/)** | Integrated railway operations suite covering timetables, rolling stock assignment, crew dispatching, and disruption recovery. | €30,000 / year starter timetable and rolling-stock duty module for regional operators | 30-day evaluation pilot (cloud test environment, up to 2 planning seats, 1 regional schedule dataset) |
+| **[GIRO HASTUS](https://www.giro.ca/)** | Rail transit scheduling suite, timetable development, run-cutting, crew rostering, and daily operational dispatch. | $45,000 / year core rail scheduling, vehicle blocking, and crew rostering module | 30-day proof-of-concept environment (up to 2 planner logins, limited to 1 division schedule model) |
+| **[HaCon TPS](https://www.hacon.de/)** | Train planning and capacity management technology, macroscopic/microscopic timetable synthesis, and infrastructure slotting. | €28,000 / year base train planning system starter module for regional networks | 14-day structured test sandbox (1 user license, demo rail corridor, capped at 50 train paths) |
+| **[Hitachi Rail](https://www.hitachirail.com/)** | Integrated operations control, HMAX digital asset management platform, signalling supervision, and operational AI analytics. | $50,000 / year base digital asset intelligence & monitoring package for regional operators | 30-day proof-of-concept trial (limited to 1 monitored line section / 20 telemetry sensor feeds) |
+| **[Thales Ground Transportation Systems](https://www.thalesgroup.com/)** | Rail traffic management, digital signalling, automated train supervision (ATS), and central command communications. | $60,000 / year digital rail supervision & network analytics starter package | 30-day proof-of-concept cloud access (simulated rail corridor, up to 10 virtual signal blocks) |
+| **[Alstom ICONIS](https://www.alstom.com/)** | Integrated control and supervision center platform for mainline and metro networks, automated traffic regulation, and SCADA. | $55,000 / year integrated traffic management & control center foundation system | 30-day pilot sandbox (test ATS workstation instance, limited to 1 virtual control sector) |
+| **[Siemens Rail Operations Centre / TMS](https://www.mobility.siemens.com/)** | Network-wide traffic management systems (TMS), centralized train dispatching, conflict prediction, and automated routing. | $50,000 / year base traffic management system & dispatch coordinator module | 30-day evaluation environment (virtual control center simulator, up to 2 dispatch operators) |
 
 RailSys and OpenTrack are particularly relevant to the **planning/simulation** side of the category, while platforms such as Railigent X and HealthHub are more focused on **asset intelligence, maintenance, and operational analytics**. Commercial rail operations suites increasingly combine these domains with real-time control, predictive analytics, and decision support.
 
